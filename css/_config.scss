@@ -1,0 +1,27 @@
+// NOTE: Nothing imported in this file should ever import actual code. It should
+// only import things like variables and mixins. It file should be included at
+// the top of each individual sass file (not partials).
+
+// External dependencies
+//------------------------------------------------------------------------------
+@import "susy";
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+@import "compass/reset";
+
+// Compass
+@import "compass/css3";
+@import "compass/utilities";
+@import "compass/typography";
+
+// Variables
+//------------------------------------------------------------------------------
+
+@import "utilities/variables";
+
+// Elements
+//------------------------------------------------------------------------------
+
+@import "elements/grid/grid";
